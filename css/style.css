@@ -1,0 +1,258 @@
+body{
+  font-family: 'Arvo', serif;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+/* =====================================--NAV BAR--============================================== */
+.navbar-inverse{
+  background: rgba(255, 255, 255, 0);
+  padding: 30px;
+  border-bottom: none;
+}
+.navbar-custom{
+ background: rgba(0, 0, 0, 0.801);
+ transition: 0.5s ease-in-out;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: red;
+}
+.nav li{
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 35px;
+  padding-top: 25px;
+}
+.nav li:hover{
+  cursor: pointer;
+}
+.my-icon{
+width: 22px;
+height: 5px;
+display: block;
+border-bottom: 2px solid red;
+margin: 3px 0;
+}
+/* =======================================--NAVBAR END--============================================ */
+
+/* =======================================--INTRO--============================================ */
+.intro{
+  display:table;
+  width:100%;
+  height:100vh;
+  background: url("../img/hero-img-min.jpg") no-repeat ;
+  background-size: cover;
+  padding: 100px 0;
+}
+.intro-body{
+  display:table-cell;
+  vertical-align:middle;
+}
+.heading{
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+}
+.jumbotron{
+  background-color: transparent;
+  color:#fff;
+  text-align: center;
+  margin: 50px 0;
+  padding: 10px;
+  letter-spacing: 2.5px;
+}
+.body-icon{
+  font-size: 200px;
+  color: red;
+}
+.icons{
+  margin-top: 50px;
+}
+.icons .col-md-4{
+  text-align: center;
+  color: #fff;
+}
+.icons .col-md-4 p{
+  font-size: 15px;
+}
+.contact{
+  text-align: center;
+  margin: 30px 0;
+}
+.dugme{
+  background-color:rgba(0,0,0, 0.5);
+  border: 1px solid white;
+  border-radius: 10px;
+  color:red;
+  font-size: 18px;
+  padding: 25px 70px;
+  letter-spacing: 1.3px;
+  width: 300px;
+  margin-top: 50px;
+}
+.dugme:hover{
+  background-color: rgba(0,0,0, 0.5);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:visited,a:active{
+  text-decoration: none;
+  color: white;
+}
+/* ==============================--INTRO END--==================================== */
+
+/* ==============================--O NAMA--===================================================== */
+#onama{
+  background: url("../img/prijava.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+} 
+.onama-content{
+  padding: 50px 50px;
+}
+.medias{
+  padding: 50px 50px;
+}
+.media p{
+ font-style: italic;
+ font-size: 15px;
+}
+.heading-o{
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+}
+.paragraf-o{
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+}
+/* ============================--O NAMA END--====================================== */
+
+/* ============================--ZASTO--====================================== */
+#zasto{
+  background: url("../img/ko-smo-mi-min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.zasto-content{
+  padding: 50px 50px;
+}
+.media-object{
+  color: red;
+}
+.media-heading{
+  font-weight: bold;
+  font-size: 25px;
+}
+/* ============================--ZASTO END--====================================== */
+
+/* =============================--OBUKE--====================================================== */
+#obuke{
+  background: linear-gradient(to right,#3B3B3B 50%,#242021 50%);
+}
+.obuke-content{
+  padding: 50px 50px;
+  color: white;
+}
+.kurs-p{
+  text-align: center;
+  font-size: 20px;
+}
+.kurs-h{
+  font-family: 'Press Start 2P', cursive;
+}
+/* ===========================--OBUKE END======================================= */
+
+
+/* ============================--KONTAKT--======================================================= */
+#kontakt{
+  background: linear-gradient(to left,#3B3B3B 50%,#242021 50%);;
+  color: white;
+}
+.kontakt-content{
+  padding: 50px 50px;
+}
+.heading-k{
+  font-family: 'Press Start 2P', cursive;
+}
+.side-kontakt{
+  border-left: 5px solid #242021;
+  padding: 20px;
+}
+.side{
+  list-style: none;
+  line-height: 2em;
+  font-size: 17px;
+}
+.side a{
+  text-decoration: none;
+  color: white;
+}
+.heading-k-s{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+/* ==========================--KONTAKT END--======================================== */
+
+/* ==========================--FOOTER--======================================== */
+#copy {
+  color: white;
+  background: #242021;
+}
+#copy p{
+  padding-top:10px;
+  font-style: italic;
+}
+/* ==========================--FOOTER END--======================================== */
+
+/* ===========================--MEDIA--======================================================== */
+@media screen and (max-width:767px){
+ .navbar-inverse{
+  background: rgba(0, 0, 0, 0.801);
+  padding: 30px;
+ }
+  .onama-content{
+    padding: 0;
+  }
+  .onama-content h1{
+    font-size: 40px;
+  }
+  .onama-content p{
+    font-size: 30px;
+  }
+ .zasto-content{
+   padding: 50px 0;
+ }
+ .zasto-content h1{
+   font-size: 40px;
+ }
+ .media-body P{
+   font-size: 13px;
+   text-align: left;
+ }
+ .kurs-h{
+   font-size: 20px;
+   min-width: 300px;
+ }
+ .side{
+   font-size: 15px;
+   min-width: 300px;
+ }
+}
+/* ======================================--MEDIA END(max width:767px)--============================================= */
+@media screen and (min-width:992px) and (max-width:1199px){
+  .media-body p{
+    font-size: 13px;
+    text-align: left;
+  }
+  .media-heading{
+    font-size: 20px;
+  }
+}
